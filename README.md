@@ -10,6 +10,8 @@ Let's start with the official definition from the [Docker documentation](https:/
 
 This means that by using Docker, if an application works on your development machine, it can run in the same way on other machines. But how can this happen? By packaging the application with all its requirements and passing it to an isolated environment called **Container**. It allows multiple applications use different versions of some software along with each other in the same machine without messing with each other.
 
+![applications use different versions](https://s4.uupload.ir/files/different_versions_of_an_application_8y1t.png)
+
 ### Dockerizing an application
 
 A Dockerized application is an application that `Dockerfile` has been added to it. `Dockerfile` is a plain text file which includes instructions that Docker uses to package up an application into an **image**. This image contains everything the application needs to run such as:
